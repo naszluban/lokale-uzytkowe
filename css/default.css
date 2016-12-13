@@ -1,0 +1,186 @@
+/* v1.2 | 200911110126 */
+
+* {
+  background: transparent;
+  border: 0 none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+  }
+
+html {
+  font-size: 100.01%;		/* set base size */
+  }
+
+body {
+  background: #fff;
+  color: #000;
+  font-size: 62.5%;		/* work with EMs like with PXs (ie. 13px = 1.3em) */
+  line-height: 1;
+  min-height: 101%;		/* prevent centered designs jumping in Firefox */
+  }
+
+blockquote { quotes: none; }
+q { quotes: "" ""; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+  }
+
+/* remove dotted links */
+:focus	{ outline: none; }
+
+/* remember to highlight inserts somehow! */
+ins	{	text-decoration: none;	}
+del	{	text-decoration: line-through;	}
+
+
+a img, :link img, :visited img {
+  border: none;
+  }
+
+address {
+  font-style: normal;
+  }
+
+code, kbd, samp, pre, tt, var, textarea,
+input, select, isindex, listing, xmp, plaintext {
+  font-size: 1em;
+  font: inherit;
+  white-space: normal;
+  }
+
+pre {	white-space: pre; }
+
+dfn, i, cite, var, em {
+  font-style: italic;
+  }
+
+dfn {
+  font-weight: bold;
+  }
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: bold;
+  font-size: 18px;
+  }
+
+a, img, a img, iframe, form, fieldset, object, applet, table {
+  border: none;
+  }
+
+abbr, acronym {
+  border-bottom: 1px dotted;
+  }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  }
+
+th {
+  font-weight: bold;
+  }
+
+tfoot {
+  font-style: italic;
+  }
+
+caption, th, td, center {
+  text-align: left;
+  vertical-align: top;
+  }
+
+ul, ul li {
+  list-style-type: disc;
+  }
+
+ol, ol li {
+  list-style-type: decimal;
+  }
+
+sub, sup {
+  line-height: 0;
+  vertical-align: baseline;
+  }
+
+a {
+  color: inherit;
+  }
+
+hr {
+  display: none;
+  }
+
+font {
+  color: inherit !important;
+  font: inherit !important;
+  color: inherit !important; /* editor's note: necessary? */
+  }
+
+marquee {
+  overflow: inherit !important;
+  -moz-binding: none;
+  }
+
+blink {
+  text-decoration: none;
+  }
+
+nobr {
+  white-space: normal;
+  }
+
+dl dt {
+  font-weight: bold;
+  }
+
+textarea {
+	overflow: auto;
+/* Disable Textarea resizing for Safari */
+/* Supports: car, both, horizontal, none, vertical */
+  resize: none;
+  }
+
+
+/* hacks */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0){    /* fix the bad text
+* { text-shadow: #000000 0 0 0px;	}
+body { text-shadow: #000 0 0 0; }
+}
+*/
+
+
+/*Set color of selected text (Firefox/Safari only) */
+/*::selection {
+  background: #ffb7b7; /* Safari /
+  }
+::-moz-selection {
+  background: #ffb7b7; /* Firefox /
+  }*/
+
+
+/* fix clear of floating elements */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  }
+
+.clearfix {
+  [if IEMac] display: inline-block;
+  [if lte IE 7] zoom: 1;
+  [if lte IE 7] display: block;
+  }

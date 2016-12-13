@@ -39,9 +39,16 @@
 
 <meta name="robots" content="all" />
 
-<link rel="stylesheet" href="css/default.css" type="text/css" />
 
-<link rel="stylesheet" href="css/styles.css" type="text/css" title="main" />
+
+<!-- <link rel="stylesheet" href="css/styles.css" type="text/css" title="main" /> -->
+
+<link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="blueprint/print.css" type="text/css" media="print"> 
+<link rel="stylesheet" href="blueprint/latest.css" type="text/css" media="screen">
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->
 
 <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
 
@@ -57,96 +64,37 @@
 
 
 
+
+
+
 <div id="main">
-
-
-
-	<ul id="menu">
-
-		<li id="menu-left"><img class="png" src="gfx/layout/menu/menu-left.png" alt="" /></li>
-
-		<li><a href="/" rel="lokale"><img class="png" src="gfx/layout/menu/menu1.png" alt="" /><span></span></a></li>
-
-		<li id="menu-right"><img class="png" src="gfx/layout/menu/menu-right.png" alt="" /></li>
-
-	</ul>
-
-	
-
-	<div id="top" class="box">
-
-		<div id="top-container">
-<img src="gfx/layout/extra-info1.png" alt="" />
-
-			<div>
-
-		<img src="gfx/layout/kontakt.png" alt="" />
-
-			</div>
-				
-
-
-			<p>
+			<div id="main_content">	
+	<div class="container" id="content">
+<div class='column span-12 append-1'>
+						<p id="statement">
 
        Lokale użytkowe w Lubaniu do wynajęcia. Atrakcyjna lokalizacja przy ulicy Izerskiej. Doskonałe pod działalność gospodarczą typu sklep przemysłowy, hurtownia, magazyn. Możliwość wynajęcia od zaraz. Zapraszamy zainteresowanych do obejrzenia obiektów od poniedziałku do piątku w godzinach od 7.00 - 15.00 po wcześniejszym kontakcie telefonicznym. Właścicielem lokali jest Gminna Spółdzielnia Samopomoc Chłopska w Lubaniu.
 
 			</p>
-
-		</div>
-
-	</div>
-
-
-
-
-
-	<div id="lokale" class="box">
-<h1>Lokale użytkowe Lubań - do wynajęcia od zaraz</h1>
+			</div>
+<div class="column span-10 box last">
+&nbsp;
+</div>
+		
+  
 
 
 
-                <div class="white-box">
-
-	<div class="image">
-
-		<p><img src="gfx/wdh1.jpg" alt="" /></p>
-
-			<ul>
-
-			<li><a class="active" href="gfx/wdh1.jpg">1</a></li>
-
-            <li><a href="gfx/wdh2.jpg">2</a></li>
-
-            <li><a href="gfx/wdh3.jpg">3</a></li>
-
-            <li><a href="gfx/wdh4.jpg">4</a></li>
-            
-			</ul>
-
-		</div>
-
-		<div class="info">
 
 
-<h3>Powierzchnia 420m² w Domu Handlowym, przy ulicy Tkackiej, I piętro.</h3>
-<p>Możliwość wynajęcia całości lub części powierzchni.</p>
 
-<p><strong>Do dyspozycji winda towarowa.</strong></p>
 
-<p>W sąsiedztwie Textil Market, stoisko z dywanami, stoisko z firanami, stoisko z szafami wnękowymi.</p>
 
-<p>CENA DO NEGOCJACJI. ATRAKCYJNE WARUNKI PRZY WYNAJMIE CAŁOŚCI.</p>
+      
 
-		</div>
+ <div class="box white-box column span-14 append-1">
 
-	</div>
-
-        
-
-                 <div class="white-box">
-
-	<div class="image">
-
+<div class="image">	
 		<p><img src="gfx/lokal_izerska_1.jpg" alt="" /></p>
 
 			<ul>
@@ -169,33 +117,29 @@
 
 
 			</ul>
+</div>			
+
+
+		<div class="column span-8 last">
+<h2>Lokal użytkowy, Lubań, Izerska 7</h2>
+						<ul class="simple">
+							<li><strong>56 m2</strong></li>
+							<li>atrakcyjna lokalizacja - pawlilon przy ul. Izerskiej</li>
+
+							<li>dodatkowe tylne wejście, dla zaopatrzenia</li>
+							<li>możliwość odliczenia od czynszu nakładów na remont</li>
+							<li>instalacja elektr., wodno-kan., W-C</li>
+							<li>centralne ogrzewanie</li>
+							<li>Cena: ok. 600 zł / m-c</li>
+						</ul>
 
 		</div>
 
-		<div class="info">
-
-			<h3>Lokal użytkowy, Lubań, Izerska 7</h3>
-      <p>- <strong>56 m2</strong></p>
-			<p>- atrakcyjna lokalizacja - pawlilon przy ul. Izerskiej </p>
-			<p>- dodatkowe tylne wejście, dla zaopatrzenia </p>
-			<p>- możliwość odliczenia od czynszu nakładów na remont </p>
-			<p>- instalacja elektr., wodno-kan., W-C </p>			
-			<p>- centralne ogrzewanie </p>
-			<p>Cena: do negocjacji </p>
-
-		</div>
-
-	</div>
-
         
 
-        
+         
 
-        
-
-         <div class="white-box">
-
-	<div class="image">
+	<div class="white-box column span-14 append-1">
 
 		<p><img src="gfx/hurtownia_izerska_1.jpg" alt="" /></p>
 
@@ -225,89 +169,47 @@
             
             <li><a href="gfx/hurtownia_izerska_12.jpg">12</a></li>
             
-           
+            <li><a href="gfx/hurtownia_izerska_13.jpg">13</a></li>
+            
+            <li><a href="gfx/hurtownia_izerska_14.jpg">14</a></li>
+            
+            <li><a href="gfx/hurtownia_izerska_15.jpg">15</a></li>
+
 			</ul>
 
 		</div>
 
-		<div class="info">
+			<div class="column span-8 last">
+<h2>Hurtownia, Lubań, Izerska 7</h2>
+						<ul class="simple">
+							<li><strong>115 m2 + 34 m2</strong></li>
+							<li>atrakcyjna lokalizacja</li>
 
-			<h3>Hurtownia, Lubań, Izerska 7</h3>
-      <p>- <strong>115 m2 + 34 m2</strong></p>
-			<p>- atrakcyjna lokalizacja </p>
-			<p>- dodatkowe tylne wejście, dla zaopatrzenia </p>
-			<p>- instalacje: elektryczna, wodna, alarmowa </p>
-			<p>- możliwość odliczenia od czynszu nakładów na remont </p>
-			<p>- możliwość wynajęcia z dodatkowym magazynem 34 m2 lub bez </p>
-			<p>Cena: do negocjacji </p>
-
+							<li>instalacje: elektryczna, wodna, alarmowa</li>
+							<li>możliwość odliczenia od czynszu nakładów na remont</li>
+							<li>możliwość wynajęcia z dodatkowym magazynem 34 m2 lub bez</li>
+				
+							<li>Cena: ok. 1000 zł / m-c</li>
+						</ul>
+	
 		</div>
 
-	</div>
+
+</div>
 
         
-    <div class="white-box">
+</div> <!-- container -->
 
-	<div class="image">
-
-		<p><img src="gfx/jaw1.jpg" alt="" /></p>
-
-			<ul>
-
-			<li><a class="active" href="gfx/jaw1.jpg">1</a></li>
-
-            <li><a href="gfx/jaw2.jpg">2</a></li>
-
-            <li><a href="gfx/jaw3.jpg">3</a></li>
-
-            <li><a href="gfx/jaw4.jpg">4</a></li>
-
-            <li><a href="gfx/jaw5.jpg">5</a></li>
-
-            <li><a href="gfx/jaw6.jpg">6</a></li>
-
-            <li><a href="gfx/jaw7.jpg">7</a></li>
-
-            <li><a href="gfx/jaw8.jpg">8</a></li>
-            
-            <li><a href="gfx/jaw9.jpg">9</a></li>
-            
-            <li><a href="gfx/jaw10.jpg">10</a></li>
-            
-            <li><a href="gfx/jaw11.jpg">11</a></li>
-            
-            <li><a href="gfx/jaw12.jpg">12</a></li>
-            
-            <li><a href="gfx/jaw13.jpg">13</a></li>
-            
-           
-			</ul>
-
-		</div>
-
-		<div class="info">
-
-			<h3>Lokal użytkowy (sklep), 78m², Lubań, ul. Izerska</h3>
-      <p>- <strong>78 m2</strong></p>
-			<p>- atrakcyjna lokalizacja </p>
-			<p>- dodatkowe tylne wejście, dla zaopatrzenia </p>
-			<p>- instalacje: elektryczna, wodna, alarmowa </p>
-			<p>- możliwość odliczenia od czynszu nakładów na remont </p>
-			
-			<p>Cena: do negocjacji </p>
-
-		</div>
-
-	</div>
+        
 
         
 
        
-        
 
-    <p>Zobacz też: <a href="http://nieruchomosci.naszluban.pl">Nieruchomości Lubań</a></p>
 
-	</div>
+    
+
+
 
 
 
@@ -326,13 +228,14 @@
 
 			</div>
 
-			
+		</div>
+		</div>	
 
 
 
 
 
-</div>
+
 
 <script type="text/javascript">
 
